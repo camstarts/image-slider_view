@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <ImageView
-        android:id="@+id/daimajia_slider_image"
+        android:id="@+id/camstarts_image"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:contentDescription="@string/todo" />
@@ -29,10 +30,11 @@
 
         <TextView
             android:id="@+id/description"
-            android:textColor="#FFFFFF"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
-
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/oxygen_light"
+            android:text="@string/image_name"
+            android:textColor="#FFFFFF" />
         </LinearLayout>
 
 </RelativeLayout>
