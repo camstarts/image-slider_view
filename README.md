@@ -3,7 +3,7 @@ Android Image Slider view new version for android library.
 
 
 Maven
-```
+```Groovy
 allprojects {
 		repositories {
 			...
