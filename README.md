@@ -15,6 +15,6 @@ allprojects {
 Gradle
 ```
 dependencies {
-	        compile 'com.github.camstarts:image.slider.view:v1.0.3'
+	        compile 'com.github.camstarts:image.slider.view:v1.0.4'
 	}
 ```
